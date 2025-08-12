@@ -1,0 +1,99 @@
+# Simple, deterministic skill-to-target mappings.
+# Expand with your full hierarchy and mastery rules.
+
+domains:
+  Social:
+    beginner:
+      targets:
+        - "Respond to greeting with verbal 'hi' or wave in 4/5 trials"
+        - "Practice turn-taking with preferred toy for 2–3 turns"
+      prompting: "Most-to-least: full model → partial model → gestural"
+      reinforcement: "Immediate behavior-specific praise + small token"
+      mastery_criteria: "80% independent across 2 consecutive sessions"
+      activities:
+        - "Hello song with name call and wave"
+        - "Turn-taking with ball or cars using 'my turn/your turn' cards"
+    intermediate:
+      targets:
+        - "Initiate greeting with prompt fading in 4/5 opportunities"
+        - "Maintain cooperative play for 3–4 minutes with peer"
+      prompting: "Least-to-most; time delay for initiations"
+      reinforcement: "Variable ratio praise; token board (5 tokens)"
+      mastery_criteria: "80% independent across 3 consecutive sessions"
+      activities:
+        - "Peer greeting scavenger (find and greet staff/peer)"
+        - "Cooperative block building challenge"
+    advanced:
+      targets:
+        - "Initiate and respond to greetings across 3 settings"
+        - "Lead a simple group game with 2 peers for 5 minutes"
+      prompting: "Naturalistic, incidental teaching; situational priming"
+      reinforcement: "Activity choice; social praise; group leader badge"
+      mastery_criteria: "Across 2 weeks and 3 novel partners"
+      activities:
+        - "Classroom arrival routine with self-initiation"
+        - "Lead 'Simon Says' or 'Freeze Dance'"
+
+  Verbal:
+    beginner:
+      targets:
+        - "Imitate single sounds/syllables (5 exemplars)"
+        - "Request preferred item using 1-word mand (e.g., 'ball')"
+      prompting: "Echoic → phonemic cues; most-to-least"
+      reinforcement: "Immediate access to requested item (30–60s)"
+      mastery_criteria: "80% across 2 sessions, 5 exemplars each"
+      activities:
+        - "Echoic drills with pictures"
+        - "Choice board requesting during play"
+    intermediate:
+      targets:
+        - "Request using 2–3 word phrases ('want + item')"
+        - "Label 10 common items across 2 settings"
+      prompting: "Least-to-most; time delay; gestural → verbal prompt"
+      reinforcement: "Differential reinforcement for spontaneous mands"
+      mastery_criteria: "80% across 3 sessions, 10+ items"
+      activities:
+        - "Snack time requesting with sentence strip"
+        - "Labeling scavenger hunt"
+    advanced:
+      targets:
+        - "Answer WH- questions (what/where) in context (10 trials)"
+        - "Use 3–4 word sentences spontaneously during play"
+      prompting: "Naturalistic cues, modeling, recasting"
+      reinforcement: "Natural consequences + praise"
+      mastery_criteria: "Across 2 weeks in 3 activities"
+      activities:
+        - "WH-question bingo"
+        - "Story retell with picture cards"
+
+  Play:
+    beginner:
+      targets:
+        - "Engage in functional play with 3 toys for 1 minute each"
+        - "Tolerate adult joining play without problem behavior"
+      prompting: "Modeling + hand-over-hand as needed, fade quickly"
+      reinforcement: "Access to preferred play; labeled praise"
+      mastery_criteria: "Independent functional play 80% trials"
+      activities:
+        - "Pretend feeding set; cause-and-effect toys"
+        - "Adult joins play for 30s intervals"
+    intermediate:
+      targets:
+        - "Expand play schemas (2-step pretend sequences)"
+        - "Share materials during parallel → associative play"
+      prompting: "Least-to-most with visuals"
+      reinforcement: "Token economy for sharing/expansion"
+      mastery_criteria: "80% across 3 days"
+      activities:
+        - "Pretend kitchen: cook → serve"
+        - "Shared craft with material exchange"
+    advanced:
+      targets:
+        - "Cooperative pretend play with roles for 5 minutes"
+        - "Follow play rules in simple board game"
+      prompting: "Natural cues; peer models"
+      reinforcement: "Group choice time; praise"
+      mastery_criteria: "Across 2 weeks with 2 peers"
+      activities:
+        - "Doctor/Patient role play"
+        - "Candy Land or Snakes & Ladders"
