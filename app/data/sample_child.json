@@ -1,0 +1,8 @@
+{
+  "name": "A.",
+  "age_years": 6,
+  "diagnosis": "Autism Spectrum Disorder",
+  "strengths": ["Loves cars", "Enjoys music", "Good visual memory"],
+  "preferences": ["Sticker tokens", "Ball play", "Apple slices"],
+  "notes": "Recently started greeting spontaneously at home."
+}
