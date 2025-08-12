@@ -1,4 +1,4 @@
-##Adaptive Therapy Plan Generator
+Adaptive Therapy Plan Generator
 An AI-powered Streamlit prototype that helps educators, therapists, and parents create personalized weekly therapy plans for children with autism or other developmental needs.
 
 The app uses a rules-first ABA framework combined with OpenAI-powered narrative generation to ensure plans are safe, evidence-based, and family-friendly.
